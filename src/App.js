@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
-const APPS_SCRIPT_URL = "YOUR_WEB_APP_URL_HERE";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbytM2marucl1nhXIRObFmD2kCxSUJ-GNidVPra53NBsPRWq9Ttx7JxtEMEKRKdyJPNsOA/exec";
 const API_PIN = "ROHIT_SECURE_2026"; 
 
 function Autocomplete({ value, onChange, options, onCreate, placeholder }) {
